@@ -61,7 +61,7 @@ function App() {
 
 <Fade>
 <div className='flex'>
-          <p className='projects' id="projects">2022 Projects.</p>
+          <p className='projects' id="projects">Projects</p>
       </div>
       <div className='showcase-container'>
         <div className='item'>
