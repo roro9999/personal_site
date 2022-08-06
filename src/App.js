@@ -15,7 +15,6 @@ import { Turn as Hamburger } from 'hamburger-react'
 function App() {
   const [isOpen, setOpen] = useState(false)
   const [modal, setModal] = useState(false);
-  const [modal2, setModal2] = useState(false);
 
   const toggleModal = () => {
     setModal(!modal);
@@ -29,8 +28,8 @@ function App() {
 
   return (
     <div>
-      <div className='header'>
-        <a href='#welcome' id="last">About</a>
+      <div className='header' id="top">
+        <a href='#top' id="last">About</a>
         <a href='#projects'>Projects</a>
         <button className='burger' onClick={toggleModal}><Hamburger toggled={isOpen} toggle={setOpen} /></button>
       </div>
@@ -114,7 +113,7 @@ function App() {
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
             <div className='flex-mobile'>
-            <p href='#welcome' className='mobile-a'>About</p>
+            <p href='#top' className='mobile-a'>About</p>
             <p href='#projects' className='mobile-a'>Projects</p>
               </div>
 
