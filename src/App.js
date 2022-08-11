@@ -51,7 +51,7 @@ function App() {
 
       <div className='socail'>
         <a href='https://dribbble.com/roro9999'><button className='so-btn'><span><FaDribbble/></span></button></a>
-        <a href='https://twitter.com/roro9999_'><button className='so-btn'><span><FaTwitter/></span></button></a>
+        <a href='https://twitter.com/roro_9999_'><button className='so-btn'><span><FaTwitter/></span></button></a>
         <button className='so-btn'><span><FaDiscord/></span></button>
         <div className='line'></div>
       </div>
