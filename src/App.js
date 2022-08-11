@@ -18,12 +18,6 @@ function App() {
 
   const toggleModal = () => {
     setModal(!modal);
-  };
-
-  if(modal) {
-    document.body.classList.add('active-modal')
-  } else {
-    document.body.classList.remove('active-modal')
   }
 
   return (
@@ -33,10 +27,7 @@ function App() {
         <a href='#projects'>Projects</a>
         <button className='burger' onClick={toggleModal}><Hamburger toggled={isOpen} toggle={setOpen} /></button>
       </div>
-      <div>
-        <img className='test-img' src = "https://cdn.discordapp.com/attachments/866078803611877416/1005306343365824582/unknown.png"></img>
-      </div>
-      <Fade bottom>
+      <Fade>
       <div className='flex-center'>
         <div className='zindex'>
         <p className='welcome' id="welcome">roro.</p>
@@ -60,9 +51,8 @@ function App() {
 
 <Fade>
 <div className='flex'>
-          <p className='projects' id="projects">Projects</p>
       </div>
-      <div className='showcase-container'>
+      <div className='showcase-container' id="projects">
         <div className='item'>
           <img className='milton' src = {milton} alt="milton"></img>
           <div className='div-text'>
