@@ -8,6 +8,7 @@ import milton from './Static/milton.webp'
 import nocap from './Static/nocap.webp'
 import ballz from './Static/ballz.webp'
 import Neon from './Static/neon.webp'
+import Cryptic from './Static/cryptic.webp'
 import Fade from 'react-reveal/Fade';
 import { Turn as Hamburger } from 'hamburger-react'
 
@@ -64,7 +65,7 @@ function App() {
         </div>
         <div className='item'>
         <img className='milton' src = {nocap} alt="nocat"></img>
-          <div className='div-text-2'>
+          <div className='div-text'>
           <a className='text-m'>nocap.ai</a>
           <a className='text-m-5'><FiFigma/></a>
           <a className='text-m-3'><FaReact/></a>
@@ -73,7 +74,7 @@ function App() {
         </div>      
         <div className='item'>
         <img className='milton' src = {ballz} alt="ballz"></img>
-        <div className='div-text-2'>
+        <div className='div-text'>
           <a className='text-m'>Ballz NFT</a>
           <a className='text-m-4'><FaReact/></a>
           <a className='text-m-3'><FaCss3Alt/></a>
@@ -81,9 +82,17 @@ function App() {
         </div>
         <div className='item'>
         <img className='milton' src = {Neon} alt="neon"></img>
-        <div className='div-text-2'>
+        <div className='div-text'>
           <a className='text-m'>Neon Labs</a>
           <a className='text-m-2'><FiFigma/></a>
+          <a className='text-m-3'><FaReact/></a>
+          <a className='text-m-3'><SiTailwindcss/></a>
+          </div>
+        </div>
+        <div className='item'>
+        <img className='milton' src = {Cryptic} alt="cryptic"></img>
+        <div className='div-text'>
+          <a className='text-m-22'>Cryptic Proxies</a>
           <a className='text-m-3'><FaReact/></a>
           <a className='text-m-3'><SiTailwindcss/></a>
           </div>

@@ -248,8 +248,8 @@ margin-top: -50px;
   margin-bottom: 150px;
 }
 .item{
-  width: 320px;
-  height: 350px;
+  width: 350px;
+  height: 400px;
   margin: 25px;
   border-radius: 5px;
   overflow: hidden;
@@ -257,12 +257,22 @@ margin-top: -50px;
 }
 .milton{
   width: 100%;
+  height: 320px;
+  object-fit: cover;
   display: block;
   height: auto;
 }
 .text-m{
   font-size: 20px;
   margin-left: 26px;
+  font-weight: 600;
+  position: relative;
+  top: 16px;
+}
+.text-m-22{
+  font-size: 20px;
+  margin-left: 26px;
+  margin-right: 80px;
   font-weight: 600;
   position: relative;
   top: 16px;
@@ -296,8 +306,8 @@ margin-top: -50px;
   top: 20px;
 }
 .div-text{
-  position: relative;
-  top: -65px;
+  position: absolute;
+  bottom: 0px;
   left: 0px;
   z-index: 10;
   width: 100%;
@@ -306,8 +316,7 @@ margin-top: -50px;
   backdrop-filter: blur(3px);
 }
 .div-text-2{
-  position: relative;
-  top: -78px;
+  position: absolute;
   left: 0px;
   z-index: 10;
   width: 100%;
