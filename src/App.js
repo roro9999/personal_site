@@ -33,7 +33,7 @@ function App() {
       </div>
 
 
-      <div className='mt-48 mb-32'>
+      <div className='mt-48 mb-32 md:mt-40'>
         <p className='text-md text-gray-600'>Work</p>
         <div className='w-full bg-gray-100 h-[55rem] rounded-md overflow-scroll border border-gray-200 mt-2.5'>
           <div className='flex mt-12 md:flex-col'>
