@@ -85,9 +85,9 @@ function App() {
 
           <hr className='mt-16 ml-10 mr-10'></hr>
 
-<div className='flex mt-16 md:flex-col mb-12 justify-center pb-24'>
+<div className='flex mt-16 md:flex-col mb-12 justify-center pb-24 md:pb-20 md:mt-12'>
   <div>
-    <p className='text-center text-4xl font-medium text-[#000] mt-16' id="title">Ready to connect?</p>
+    <p className='text-center text-4xl font-medium text-[#000] mt-16 md:mt-12' id="title">Ready to connect?</p>
     <div className='flex justify-center'>
       <a href='https://discord.gg/TMxfQFms'><button className='pl-5 p-2 pr-5 bg-[#000] mt-8 rounded-md text-lg hover:bg-transparent hover:text-[#000]'>Join Discord</button></a>
     </div>
