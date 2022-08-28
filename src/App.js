@@ -9,7 +9,7 @@ import { BsTwitter, BsDribbble } from 'react-icons/bs';
 function App() {
 
   return (
-    <div className='ml-32 mr-32 mt-10 md:ml-4 md:mr-4'>
+    <div className='ml-32 mr-32 mt-10 md:ml-4 md:mr-4 md:mt-6'>
       <div className='w-full flex justify-end'>
         <div className='flex'>
          <a href='https://twitter.com/roro_9999_'><button className='flex items-center p-2.5 text-2xl bg-[#1D1D2C] rounded-full mr-3 hover:text-[#FDE68A] hover:bg-transparent'><BsTwitter/></button></a>
