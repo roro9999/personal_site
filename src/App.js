@@ -12,7 +12,7 @@ function App() {
     <div className='ml-32 mr-32 mt-10 md:ml-4 md:mr-4'>
       <div className='w-full flex justify-end'>
         <div className='flex'>
-          <button className='flex items-center p-2.5 text-2xl bg-[#1D1D2C] rounded-full mr-3 hover:text-[#FDE68A] hover:bg-transparent'><BsTwitter/></button>
+         <a href='https://twitter.com/roro_9999_'><button className='flex items-center p-2.5 text-2xl bg-[#1D1D2C] rounded-full mr-3 hover:text-[#FDE68A] hover:bg-transparent'><BsTwitter/></button></a>
           <button className='flex items-center p-2.5 text-2xl bg-[#1D1D2C] rounded-full hover:text-[#FDE68A] hover:bg-transparent'><BsDribbble/></button>
         </div>
       </div>
@@ -39,7 +39,7 @@ function App() {
           <div className='flex mt-12 md:flex-col'>
             <div className='w-1/3 flex items-center ml-10 md:w-full md:ml-6'>
               <div>
-                <p className='text-5xl text-gray-800 font-medium' id='title'>Neon Labs</p>
+                <p className='text-5xl text-[#000] font-medium' id='title'>Neon Labs</p>
                 <p className='text-gray-400 text-lg mt-4'>08/10/22 <span className='ml-6'>Designed & Developed</span></p>
               </div>
             </div>
@@ -55,7 +55,7 @@ function App() {
           <div className='flex mt-16 md:flex-col mb-12'>
             <div className='w-1/3 flex items-center ml-10 md:w-full md:ml-6'>
               <div>
-                <p className='text-5xl text-gray-800 font-medium' id='title'>Milton Bot</p>
+                <p className='text-5xl text-[#000] font-medium' id='title'>Milton Bot</p>
                 <p className='text-gray-400 text-lg mt-4'>02/05/22 <span className='ml-6'>Designed & Developed</span></p>
               </div>
             </div>
@@ -71,7 +71,7 @@ function App() {
           <div className='flex mt-16 md:flex-col mb-12'>
             <div className='w-1/3 flex items-center ml-10 md:w-full md:ml-6'>
               <div>
-                <p className='text-5xl text-gray-800 font-medium' id='title'>Ballz NFT</p>
+                <p className='text-5xl text-[#000] font-medium' id='title'>Ballz NFT</p>
                 <p className='text-gray-400 text-lg mt-4'>02/05/22 <span className='ml-6'>Developed</span></p>
               </div>
             </div>
@@ -82,6 +82,19 @@ function App() {
             </video>
             </div>
           </div>
+
+          <hr className='mt-16 ml-10 mr-10'></hr>
+
+<div className='flex mt-16 md:flex-col mb-12 justify-center pb-24'>
+  <div>
+    <p className='text-center text-4xl font-medium text-[#000] mt-16' id="title">Ready to connect?</p>
+    <div className='flex justify-center'>
+      <a href='https://discord.gg/TMxfQFms'><button className='pl-5 p-2 pr-5 bg-[#000] mt-8 rounded-md text-lg hover:bg-transparent hover:text-[#000]'>Join Discord</button></a>
+    </div>
+    <p></p>
+  </div>
+
+</div>
 
         </div>
       </div>
