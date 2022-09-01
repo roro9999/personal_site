@@ -44,7 +44,7 @@ function App() {
               </div>
             </div>
             <div className='w-2/3 mr-12 items-center flex md:w-full md:mt-6'>
-            <video muted loop autoplay="true" className="rounded-md m-2 md:ml-0">
+            <video playsinline muted loop autoplay="true" className="rounded-md m-2 md:ml-0">
               <source src={Neon} type="video/mp4"></source>
               Unsupported video
             </video>
@@ -60,7 +60,7 @@ function App() {
               </div>
             </div>
             <div className='w-2/3 mr-12 items-center flex md:w-full md:mt-6'>
-            <video muted loop autoplay="true" className="rounded-md m-2 md:ml-0">
+            <video playsinline muted loop autoplay="true" className="rounded-md m-2 md:ml-0">
               <source src={Milton} type="video/mp4"></source>
               Unsupported video
             </video>
@@ -76,7 +76,7 @@ function App() {
               </div>
             </div>
             <div className='w-2/3 mr-12 items-center flex md:w-full md:mt-6'>
-            <video muted loop autoplay="true" className="rounded-md m-2 md:ml-0">
+            <video playsinline muted loop autoplay="true" className="rounded-md m-2 md:ml-0">
               <source src={Ballz} type="video/mp4"></source>
               Unsupported video
             </video>
