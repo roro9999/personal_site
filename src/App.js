@@ -72,7 +72,7 @@ function App() {
             <div className='w-1/3 flex items-center ml-10 md:w-full md:ml-6'>
               <div>
                 <p className='text-5xl text-[#000] font-medium' id='title'>Ballz NFT</p>
-                <p className='text-gray-400 text-lg mt-4'>02/05/22 <span className='ml-6'>Developed</span></p>
+                <p className='text-gray-400 text-lg mt-4'>04/09/22 <span className='ml-6'>Developed</span></p>
               </div>
             </div>
             <div className='w-2/3 mr-12 items-center flex md:w-full md:mt-6'>
